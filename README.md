@@ -1,4 +1,4 @@
-# electronero-nodejs-sdj
+# electronero-nodejs-sdk
 A Node.js wallet manager for interacting with an `electronero-wallet-rpc`, `pulse-wallet-rpc`, `litenero-wallet-rpc`, `goldnero-wallet-rpc`, or `crystaleum-wallet-rpc`. </br>
 </br>
 Forked from PsychicCat/monero-nodejs || For more information about Monero, visit: https://getmonero.org </br>
@@ -13,13 +13,13 @@ ________________________________
 ### Clone the Github repository 
 
 ``` 
-git clone https://github.com/electronero/electronero-nodejs-sdj.git
+git clone https://github.com/electronero/electronero-nodejs-sdk.git
 ```
 
 ### Via Submodule
 
 ``` 
-git submodule add https://github.com/electronero/electronero-nodejs-sdj.git 
+git submodule add https://github.com/electronero/electronero-nodejs-sdk.git 
 ```
 
 ## Initializing a wallet
@@ -27,7 +27,7 @@ git submodule add https://github.com/electronero/electronero-nodejs-sdj.git
 Require the module:
 
 ``` 
-var neroWallet = require('electronero-nodejs-sdj');
+var neroWallet = require('electronero-nodejs-sdk');
 ```
 
 Create a new instance of the wallet:
@@ -47,7 +47,7 @@ To connect to a wallet with different settings, pass in the values:
 var Wallet = new neroWallet($HOSTNAME, $PORT);
 ```
 
-**Note: versions of electronero-nodejs-sdj prior to 1.0 require `hostname` with the 'http://' prefix, 3.0 and greater only require the IP address.**
+**Note: versions of electronero-nodejs-sdk prior to 1.0 require `hostname` with the 'http://' prefix, 3.0 and greater only require the IP address.**
 
 ## Testing
 
